@@ -1,0 +1,52 @@
+4.  - mkdir SI_2024_lab1_165019
+    - cd SI_2024_lab1_165019
+    - git init
+5.  - git remote add origin https://github.com/teodoragudeska/SI_2024_lab1_165019.git
+    - git config --global user.name Teodora Gudeska
+    - git config --global user.email teodoragudeska7@gmail.com
+6.  - nano README.md
+    - git add README.md
+    - git commit -m "Initial commit"
+7.  - git add --all
+    - git git commit -m "Add starter code"
+8.  - git push -u origin master
+9.  - git checkout -b bug1 master
+    - git checkout -b bug2 master
+10. - git checkout bug1
+11. - nano SILab1_1.java
+    - git add *.java
+    - git commit -m"Fix wrong condition in filterOddLengthStrings"
+12. - git checkout bug2
+13. - nano SILab1_2.java
+    - git add *.java
+    - git commit -m"Fix wrong condition in filterOddLengthStrings"
+14. - git checkout bug1
+15. - nano SILab1Main.java
+    - git add *.java
+    - git commit -m "Call method filterOddLengthStrings in main class"
+16. - git checkout bug2
+17. - nano SILab1Main.java
+    - git add *.java
+    - git commit -m "Call method makeBigStringFrom in main class"
+18. - git push origin bug1
+    - git push origin bug2
+19. - git checkout master
+20. - git merge bug1    ( Nema Konflikt zaradi toa sto imase promena na dadoteka samo vo bug1 a ne i na master. Fast forward e napraveno zaradi toa sto dodeka se dodavaa novi commits vo bug1 vo master ne se promeni nisto)
+21. - git push
+22. - git checkout bug2
+23. - git rabse master ( ima konflikt zaradi toa sto momentalno vo master se prikaceni promenite od bug1 koi istovremeno menuvaat kod vo SILab1Main vo 16 red. Gi reshiv so toa sto vo SILab1Main.java go ostaviv samo 16 red od promenata vo bug2. Recursive zaradi toa sto so resavanje na konfliktot se sozdava uste eden commit.)
+    - nano SILab1Main.java
+    - git rebase --continue
+24. - git checkout master
+25. - git merge bug2 ( nema konflikti posto so rebase na bug2 so master se updejtiraja site promeni na bug2. Fast forward so toa sto samo na master sega se dodadoja 3 commiti sto gi nemase na master)
+26. - git push origin master
+    - git push origin bug1
+27. - git push --force origin bug2
+28. - nano logs.txt
+    - git add *.txt
+    - git commit -m "Final Commit"
+29. - git push
+
+
+
+

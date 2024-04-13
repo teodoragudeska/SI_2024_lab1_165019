@@ -1,0 +1,35 @@
+commit 001d4b772ad0a8ec52198f657c76e0189ea42432 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 21:15:41 2024 +0200
+
+    Resolved confilict while rebase master on bug2
+
+commit 9816489bc4f356fae442b0bb0d7026ec60164216
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 21:08:42 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit acfeb9a7570e442fc166806b12694f16edf0c4bd (origin/bug1, bug1)
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 21:12:21 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 2f8b4047d689f59bc7e00f48df2a0cfc94c7be7f
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 21:05:04 2024 +0200
+
+Fix wrong condition in filterOddLengthStrings
+
+commit e36b7dd758d559329b29c3d1243349f40aba9dc2
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 20:53:45 2024 +0200
+
+    Add starter code
+
+commit c70598f0e0fbdc57e0874411cbed6bb7f96b05aa
+Author: Teodora <teodoragudeska7@gmail.com>
+Date:   Sat Apr 13 20:49:33 2024 +0200
+
+    Initial commit
